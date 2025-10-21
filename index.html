@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation">
+            <div class="nav-container">
+                <a href="index.html" class='logo' data-testid="test-nav-logo">MyProfile</a>
+
+                <button class="menu-toggle" aria-label="Toggle-navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <article class="profile-card" data-testid="test-profile-card">
+
+        <h2 data-testid="test-user-name" aria-label="User Name">Zulaiha Muhammad Tiamiyu</h2>
+
+        <figure class="avatar" data-testid="test-user-avatar">
+            <img src="./assets/profile_picture_zulaiha.jpg" alt="Profile avatar">
+            <figcaption>Profile Picture</figcaption>
+        </figure>
+
+        <section class="bio">
+            <p data-testid="test-user-bio">
+                A software developer deeply passionate about building highly accessible and responsive user esperiencies. I constantly seek out and learn new technologies to advance my skills.
+            </p>
+        </section>
+          
+        <section class="time">
+
+            <p>
+                Current Time (ms):
+                <span id="user-time" data-testid="test-user-time"></span>
+            </p>
+        </section>
+
+        <nav class="social-links" data-testid="text-user-social-links">
+            <ul>
+                <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter"><i class="fa-brands fa-x-twitter"></i></a></li>
+
+                <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin"><i class="fa-brands fa-linkedin-in"></i></a></li>
+
+                <li><a href="https://github.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+        </nav>
+
+        <section class="hobbies">
+            <h3>Hobbies</h3>
+            <ul data-testid="test-user-hobbies">
+                <li>Coding</li>
+                <li>Learning</li>
+                <li>Traveling</li>
+                <li>Research</li>
+                <li>Self Development</li>
+            </ul>
+        </section>
+
+        <section class="dislikes">
+            <h3>Dislikes</h3>
+            <ul data-testid="test-user-dislikes">
+                <li>Bugs</li>
+                <li>Procrastination</li>
+                <li>Rudeness</li>
+                <li>Dishonesty</li>
+                <li>Negativity</li>
+            </ul>
+        </section>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>

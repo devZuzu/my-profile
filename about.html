@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation">
+            <div class="nav-container">
+                <a href="about.html" class='logo' data-testid="test-nav-logo">MyProfile</a>
+
+                <button class="menu-toggle" aria-label="Toggle-navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main data-testid="test-about-page" class="about-page">
+        <header class="about-header">
+            <h1>About Me</h1>
+            <p>Heres's a little about my journey and reflections.</p>
+        </header>
+
+        <section data-testid="test-about-bio" class="about-section">
+            <h2>My Bio</h2>
+            <p>I am a frontend developer with a passion for building exceptional user experiences. I bridge design and code, ensuring every interface I create is both responsive and accessible. I enjoy turning creative ideas into functional and accessible digital experiences</p>
+        </section>
+
+        <section data-testid="test-about-goals" class="about-section">
+            <h2>Goals in This Program</h2>
+            <ul>
+              <li>Master responsive web design.</li>  
+              <li>Build accessible and user-friendly web apps.</li>  
+              <li>Collaborate effectively in real-world projects.</li>  
+              <li>Build professional portfolio by completing each stage.</li>  
+            </ul>
+        </section>
+
+        <section data-testid="test-about-confidence" class="about-section">
+            <h2>Area of Low Confidence</h2>
+            <p>I'm still improving my speed when debugging complex JavaScript and refining responsive design for multiple screen sizes,but I'm committed to practicing and improving daily.</p>
+        </section>
+
+        <section data-testid="test-about-future-note" class="about-section">
+            <h2>Note to Future Self</h2>
+            <blockquote> "Keep building, keep learning, stay focus and never underestimate how far you've come."</blockquote>
+        </section>
+
+        <section data-testid="test-about-extra" class="about-section">
+            <h2>Extra Thoughts</h2>
+            <p>I'm grateful to be part of this learning experience. Everytask brings new insights, amd I'm excited to grow both technically and creatively.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
