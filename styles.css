@@ -103,6 +103,30 @@ body {
     text-align: center;
 }
 
+/* === Time Display === */
+.time {
+  margin-top: 1rem;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: 1px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+  display: inline-block;
+}
+
+
+#user-time {
+  display: inline-block;
+  min-width: 110px; 
+  text-align: center;
+}
+
+
 /* social links */
 .social-links ul{
     list-style: none;
