@@ -282,9 +282,8 @@ textarea {
   border: 1.8px solid #ccc;
   border-radius: 10px;
   font-size: 1rem;
-  width: 100%;
+  width: 90%;
   resize: vertical;
- 
   transition: all 0.25s ease-in-out;
   margin-bottom: 0.3rem;
 }
